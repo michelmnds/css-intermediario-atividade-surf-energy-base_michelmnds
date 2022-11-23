@@ -10,6 +10,7 @@ h4 {
 .home-header {
   padding: 200px 0;
   background-image: url(./../images/bg.jpg);
+  position: relative;
 }
 
 .home-header-content {
@@ -30,6 +31,7 @@ h4 {
 }
 .participants {
   padding: 50px 0;
+  position: relative;
 }
 
 .participants-content {
@@ -37,4 +39,16 @@ h4 {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
+
+}
+
+.wave1{
+  position: absolute;
+  top: -220px;
+  width: 100%;
+}
+.wave2{
+  position: absolute;
+  bottom: -220px;
+  width: 100%;
 }
